@@ -1,5 +1,21 @@
 <meta charset="utf-8">
 <link rel="stylesheet" href="main.css">
+<script>
+    function f(x) {
+        z =  document.querySelectorAll('.u')
+        if (z) {
+            z.forEach( (v, i) => {
+                v.style.display="none"
+            })
+        }
+        z =  document.querySelectorAll('.g'+x)
+        if (z) {
+            z.forEach( v => {
+                setTimeout( q =>v.style.display='block', 10 )
+            })
+        } 
+    }
+</script>
 <body>
     <img src="indexbg.jpg" id="ibg">
     <ul class="navigation">
@@ -11,14 +27,19 @@
     </ul>
     <div class="content">
         <h1>Referenciáink</h1>
-        <div class="cf">Szolnok</div>
-        <div class="cont">
+        <div class="cf" onclick="f(1)">Szolnok</div>
+        <div class="cont g1 u">
             <a href="szolnok/IMG_0601.jpeg"><img src="szolnok/index/IMG_0601.jpg" alt=""></a>
-            <img src="szolnok/index/IMG_0603.jpg" alt="">
-            <img src="szolnok/index/IMG_0657.jpg" alt="">
-            <img src="szolnok/index/IMG_0667.jpg" alt="">
-            <img src="szolnok/index/IMG_0707.jpg" alt="">
-            <img src="szolnok/index/IMG_0708.jpg" alt="">
+            <a href="szolnok/IMG_0603.jpeg"><img src="szolnok/index/IMG_0603.jpg" alt=""></a>
+            <a href="szolnok/IMG_0657.jpeg"><img src="szolnok/index/IMG_0657.jpg" alt=""></a>
+            <a href="szolnok/IMG_0667.jpeg"><img src="szolnok/index/IMG_0667.jpg" alt=""></a>
+            <a href="szolnok/IMG_0707.jpeg"><img src="szolnok/index/IMG_0707.jpg" alt=""></a>
+            <a href="szolnok/IMG_0708.jpeg"><img src="szolnok/index/IMG_0708.jpg" alt=""></a>
         </div>
+        <div class="cf" onclick="f(2)">Járda</div>
+        <div class="cont g2 u">
+            <a href="jarda/IMG_0564.jpeg"><img src="jarda/index/IMG_0564.jpg" alt=""></a>
+            <a href="jarda/IMG_0565.jpeg"><img src="jarda/index/IMG_0565.jpg" alt=""></a>
+        </div> 
     </div>
 </body>

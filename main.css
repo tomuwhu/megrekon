@@ -62,14 +62,18 @@
 }
 body {
     margin: 0px;
+    user-select: none;
 }
 img#ibg {
     width: 100%;
 }
 div.content h1 {
     text-align: center;
-    color: #1b334f;
+    color: #b6cde2;
     text-shadow: 1px 1px 3px gray;
+    background-color: #406479;
+    padding: 10px;
+    margin: 0px;
 }
 div.cf {
     text-align: center;
@@ -83,4 +87,22 @@ div.cont {
 img {
     border-radius: 6px;
     box-shadow: 1px 1px 3px black;
+}
+div.g2, div.g3 {
+    display: none;
+}
+div.cf {
+    cursor: pointer;
+    background-color: rgb(95, 117, 129);
+    color: rgb(172, 200, 200);
+    text-shadow: 1px 1px 3px black;
+    padding: 10px;
+}
+div.cf:hover {
+    background-color: rgb(68, 98, 117);
+    color: #dba28b;
+}
+div.u {
+    background-color: rgb(95, 117, 129);
+    margin: 0px;
 }
