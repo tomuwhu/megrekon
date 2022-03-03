@@ -29,12 +29,12 @@
     background: #1b334f;
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 900px) {
     .navigation {
         justify-content: space-around;
     }
 }
-@media all and (max-width: 700px) {
+@media all and (max-width: 760px) {
     body {
         background-color: #1b334f;
     }
@@ -47,14 +47,10 @@
         padding: 10px;
         border-top: 1px solid rgba(255, 255, 255,0.3);
         border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-        font-size: 40px;
+        font-size: 16px;
     }
     .navigation b {
-        text-align: center;
-        padding: 10px;
-        border-top: 1px solid rgba(255, 255, 255,0.3);
-        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-        font-size: 40px;
+        display: none;
     }
     .navigation li:last-of-type a {
         border-bottom: none;
