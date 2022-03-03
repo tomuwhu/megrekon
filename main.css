@@ -34,8 +34,10 @@
         justify-content: space-around;
     }
 }
-
 @media all and (max-width: 700px) {
+    body {
+        background-color: #1b334f;
+    }
     .navigation {
         flex-flow: column wrap;
         padding: 0;
@@ -45,12 +47,14 @@
         padding: 10px;
         border-top: 1px solid rgba(255, 255, 255,0.3);
         border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        font-size: 40px;
     }
     .navigation b {
         text-align: center;
         padding: 10px;
         border-top: 1px solid rgba(255, 255, 255,0.3);
         border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        font-size: 40px;
     }
     .navigation li:last-of-type a {
         border-bottom: none;
