@@ -106,3 +106,10 @@ div.u {
     background-color: rgb(95, 117, 129);
     margin: 0px;
 }
+div.lc {
+    text-align: center;
+}
+h2 {
+    color: #30547c;
+    text-shadow: 1px 1px 3px black;
+}
